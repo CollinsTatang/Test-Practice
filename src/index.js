@@ -60,7 +60,7 @@ const calculator = new Calculator();
 /**  Task 4 tThe function takes a string as an argument and returns that string
 *    with the first character capitalized.
 */
- function capitalize(str) {
+function capitalize(str) {
   let result;
   if (typeof str === 'string') {
     result = str.charAt(0).toUpperCase() + str.slice(1);
