@@ -56,14 +56,10 @@ class Calculator {
   }
 }
 const calculator = new Calculator();
-module.exports = {
-  count,
-  reverse,
-  calculator,
-  capitalize,
-};
+
 /**  Task 4 tThe function takes a string as an argument and returns that string
- *    with the first character capitalized.                           */
+*    with the first character capitalized.
+*/
  function capitalize(str) {
   let result;
   if (typeof str === 'string') {
@@ -73,7 +69,6 @@ module.exports = {
   }
   return result;
 }
-
 module.exports = {
   count,
   reverse,
