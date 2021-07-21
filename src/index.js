@@ -1,7 +1,7 @@
- /** Task 1
-  * -Write a function stringLength(string) that takes any string as an argument and
-  *  returns its characters count.
-  */
+/** Task 1
+* -Write a function stringLength(string) that takes any string as an argument and
+* returns its characters count.
+*/
 function count(str) {
   const { length } = str;
   let result = false;
@@ -64,7 +64,6 @@ module.exports = {
 };
 /**  Task 4 tThe function takes a string as an argument and returns that string
  *    with the first character capitalized.                           */
-
  function capitalize(str) {
   let result;
   if (typeof str === 'string') {
