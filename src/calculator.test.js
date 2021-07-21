@@ -41,4 +41,3 @@ describe('Calculator does simple aritmethic operations as ', () => {
     });
   });
 });
-
