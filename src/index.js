@@ -1,14 +1,17 @@
-import _ from 'lodash';
-import './style.css';
+function count(str) {
+  const { length } = str;
+  let result = false;
 
-function component() {
-    const element = document.createElement('div');
+  if (length >= 1 && length <= 10) {
+    result = true;
+  }
 
-    // Lodash, now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.classList.add('hello');
-
-    return element;
+  return result;
 }
 
-document.body.appendChild(component());
+module.exports = {
+  count,
+  reverse,
+  calculator,
+  capitalize,
+};
